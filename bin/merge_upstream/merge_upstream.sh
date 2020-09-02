@@ -2,7 +2,7 @@
 
 # Init upstream remote
 
-UPSTREAM_REPO=https://github.com/quantOS-org/JAQS.git
+UPSTREAM_REPO=https://github.com/sawcordwell/pymdptoolbox.git
 git remote add upstream ${UPSTREAM_REPO}
 
 # Fetch upstream
