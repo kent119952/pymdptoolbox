@@ -1,9 +1,67 @@
-build/
-dist/
-docs/_build/
-.coverage
-*.db
-*.py[co]
+# Editor temporary files
+.#*
+*\#*\#
+[#]*#
 *~
-*.egg-info/
+*$
+*.bak
+*.log
+*.swp
+*.pdb
+.project
+.pydevproject
+.idea
+.settings
+.vagrant
+.noseids
+.ipynb_checkpoints
+.cache/
+.vscode/
+*.csv
+*.png
+*.jpg
+*.htm
+*.html
+*.js
+*.css
+*.js.min
+*.zip
+*.tar
+*.gz
+*.rar
+*.ttf
+input/
+output/
+logs/
+*.log
+core.*
 
+# Compiled source
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.py[ocd]
+*.so
+
+# Python files
+build
+doc/_build
+dist
+*.egg-info
+*.eggs
+*.whl
+
+# Testing tools
+.coverage
+coverage.xml
+coverage_html_report
+
+# OS files
+.directory
+.gdb_history
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
